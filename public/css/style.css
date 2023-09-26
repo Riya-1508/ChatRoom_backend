@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
-    --dark-color-a: #d326e9;
-    --dark-color-b: #f6a5f2;
+    --dark-color-a:#32aaff;
+    --dark-color-b: #8a8a89;;
     --light-color: #e6e9ff;
     --success-color: #5cb85c;
     --error-color: #d9534f;
@@ -19,6 +19,14 @@ body {
     font-size: 16px;
     background: var(--light-color);
     margin: 20px;
+    background-image: url('../background3.jpg');
+        /* Set background image properties */
+        background-repeat: no-repeat;
+        /* Prevent the image from repeating */
+        background-size: cover;
+        /* Cover the entire background */
+        /* background-position: center; */
+        /* Center the background image */
 }
 
 ul {
